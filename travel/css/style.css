@@ -40,11 +40,6 @@
     font-style: normal;
 }
 
-:root {
-    --main-color: #F2785C;
-    --secondary-color: #0D606F;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -53,7 +48,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.wrapper {
+.container {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -72,13 +67,13 @@ nav {
     height: 90px;
 }
 
-.nav__logo {
+.nav_logo {
     display: flex;
     align-items: flex-end;
     margin: 16px 0;
 }
 
-.nav__list {
+.nav_list {
     display: flex;
     list-style: none;
     color: #fff;
@@ -94,17 +89,13 @@ nav {
 }
 
 .nav__item a:hover {
-    color: var(--secondary-color);
+    color: #0D606F;
 }
 
 .nav__name {
     color: #fff;
     font: 600 29px/20px "Magra";
     margin: 0;
-}
-
-.nav__logo-image {
-    height: 30px;
 }
 
 .preview__wrapper {
@@ -144,7 +135,7 @@ nav {
 
 .preview__question {
     font: italic 400 24px/25px "Aleo";
-    color: var(--main-color);
+    color: #F2785C;
     margin: 35px 40px;
 }
 
@@ -161,17 +152,26 @@ nav {
 }
 
 .button:hover {
-    background: var(--main-color);
+    background: #F2785C;
 }
 
-.button__login {
+.button_login {
+    color: #fff;
+    background: #0D606F;
+    border-radius: 10px;
+    border-style: none;
+    margin: 18px;
+    font: 500 24px/32px "Red Hat Text";
+    padding: 13.5px 32px;
+    transition: 0.5s;
+    cursor: pointer;
     font: 500 16px/21px "Red Hat Text";
     padding: 10px 30px;
 }
 
-.button__login:hover {
+.button_login:hover {
     background: #fff;
-    color: var(--secondary-color);
+    color: 0D606F;
 }
 
 .button__arrow {
@@ -183,9 +183,9 @@ nav {
     margin-right: 10px;
 }
 
-.section__title {
+.steps_title {
     font: 500 40px "Red Hat Text";
-    color: var(--main-color);
+    color: #F2785C;
     text-align: center;
     padding: 40px 0;
     margin: 0;
@@ -198,21 +198,21 @@ nav {
     margin: 40px 0;
 }
 
-.steps__list {
+.steps_list {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.steps__item {
+.steps_item {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: 0 0 25%;
 }
 
-.steps__item img {
-    background-color: var(--main-color);
+.steps_item img {
+    background-color: #F2785C;
     padding: 24px;
     border-radius: 16px;
     width: 100px;
@@ -221,13 +221,13 @@ nav {
     cursor: pointer;
 }
 
-.steps__item img:hover {
+.steps_item img:hover {
     box-shadow: 0 4px 4px #0D606F;
 }
 
 .steps__title {
     font: 400 20px "Aleo";
-    color: var(--secondary-color);
+    color: #0D606F;
     text-align: center;
 }
 
@@ -252,7 +252,7 @@ nav {
     margin-bottom: -100px;
 }
 
-.destinations__country {
+.country {
     font: 500 32px "Red Hat Text";
     color: #fff;
     margin: 15px;
@@ -267,7 +267,7 @@ nav {
 .slider-position__active {
     width: 20px;
     height: 20px;
-    background-color: var(--main-color);
+    background-color: #F2785C;
     border-radius: 50%;
     margin: 0 5px;
 }
@@ -280,13 +280,13 @@ nav {
     margin: 0 5px;
 }
 
-.stories__wrapper {
+.stories_wrapper {
     background-image: url(../img/Rectangle-33.jpg);
-    height: 1390px;
+    height: auto;
     margin-bottom: 0px;
 }
 
-.stories__container {
+.stories_container {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 25px 120px 40px 120px;
     display: flex;
@@ -294,48 +294,48 @@ nav {
     align-items: center;    
 }
 
-.stories__container button {
+.stories_container button {
     margin: 25px 0 0 0;
 }
 
 .stories__title {
     font: 400 35px "Aleo";
-    color: var(--secondary-color);
+    color: #0D606F;
     margin: 0;
 }
 
-.stories__textblock {
+.textblock {
     margin-left: 40px;
 }
 
-.stories__article {
+article {
     font: 400 20px/24px "Aleo";
-    color: var(--secondary-color);
+    color: #0D606F;
     margin-bottom: 0;
 }
 
-.stories__link {
+.more__link {
     font: 700 20px/24px "Aleo";
-    color: var(--secondary-color);
+    color: #0D606F;
     margin: 0;
     transition: 0.5s;
 }
 
-.stories__link:hover {
+.more__link:hover {
     text-decoration: none;
-    color: var(--main-color);
+    color: #F2785C;
 }
 
-.stories__list {
+.stories_list {
     display: flex;
 }
 
-.stories__item {
+.stories_item {
     display: flex;
     margin: 15px 0;
 }
 
-.stories__item img {
+.stories_item img {
     border-radius: 16px;
     box-shadow: 0 4px 4px #0D606F;
     height: fit-content;
@@ -377,15 +377,4 @@ nav {
     display: flex;
     margin: 0 10px;
     align-items: center;
-}
-
-.github {
-    height: 39px !important;
-    fill: #0D606F;
-    stroke: #0D606F;
-}
-
-.github svg {
-    fill: #0D606F;
-    stroke: #0D606F;
 }

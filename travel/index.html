@@ -10,19 +10,19 @@
     <title>Travel</title>
 </head>
 <body>
-    <div class="wrapper">
+    <div class="container">
     <header>
         <nav>
-            <div class="nav__logo">
-                <img src="img/svg/logo.svg" alt="website-logo" class="nav__logo-image">
-            </div>
-            <ul class="nav__list">
+            <div class="nav_logo">
+                <img src="img/svg/logo.svg" alt="website-logo">
+            </div> <!-- nav_logo end -->
+            <ul class="nav_list">
                 <li class="nav__item"><a href="#preview">How It Works</a></li>
                 <li class="nav__item"><a href="#steps">Plan Your Trip</a></li>
                 <li class="nav__item"><a href="#destinations">Destinations</a></li>
                 <li class="nav__item"><a href="#stories">Travel Stories</a></li>
             </ul>
-            <button type="button" class="button button__login">Login</button>
+            <button class="button_login">Login</button>
         </nav>
     </header>
     <main>
@@ -33,40 +33,39 @@
                 <div class="preview__interact">
                     <p class="preview__question">What would you like to do?</p>
                     <button type="button" class="button">Start Planning</button>
-                </div>
-            </div>
+                </div> <!-- preview__interact end -->
         </section>
         <section class="steps" id="steps">
-            <h2 class="section__title">3 STEPS TO THE PERFECT TRIP</h2>
-            <div class="steps__list">
-                <div class="steps__item">
+            <h2 class="steps_title">3 STEPS TO THE PERFECT TRIP</h2>
+            <div class="steps_list">
+                <div class="steps_item">
                     <img src="img/svg/Cyclist.svg" alt="icon-wish">
                     <p class="steps__title">Tell us what you want to do</p>
-                </div>
-                <div class="steps__item">
+                </div> 
+                <div class="steps_item">
                     <img src="img/svg/Calendar.svg" alt="icon-plan">
                     <p class="steps__title">Share us preferable dates</p>
                 </div>
-                <div class="steps__item">
+                <div class="steps_item">
                     <img src="img/svg/Plane.svg" alt="icon-recommendations">
                     <p class="steps__title">We will give you recommendations</p>
                 </div>
             </div>
         </section>
         <section class="destinations" id="destinations">
-            <h2 class="section__title">POPULAR DESTINATIONS</h2>
+            <h2 class="steps_title">POPULAR DESTINATIONS</h2>
             <div class="destinations__slider">
                 <div class="destinations__item">
                     <img src="img/Rectangle-23.jpg" alt="Spain photo">
-                    <p class="destinations__country">SPAIN</p>
+                    <p class="country">SPAIN</p>
                 </div>
                 <div class="destinations__item">
                     <img src="img/Rectangle-24.jpg" alt="Japan photo">
-                    <p class="destinations__country">JAPAN</p>
+                    <p class="country">JAPAN</p>
                 </div>
                 <div class="destinations__item">
                     <img src="img/Rectangle-25.jpg" alt="USA photo">
-                    <p class="destinations__country">USA</p>
+                    <p class="country">USA</p>
                 </div>
             </div>
             <div class="destinations__slider-position">
@@ -80,54 +79,62 @@
             </button>
         </section>
         <section class="stories" id="stories">
-            <h2 class="section__title">TRAVEL STORIES</h2>
-            <div class="stories__wrapper">
-            <div class="stories__container">
-            <div class="stories__list">
-                <div class="stories__item">
-                    <img src="img/Rectangle-29.jpg" alt="Thailand photo">
-                    <div class="stories__textblock">
+            <h2 class="steps_title">TRAVEL STORIES</h2>
+            <div class="stories_wrapper">
+            <div class="stories_container">
+            <div class="stories_list">
+                <div class="stories_item">
+                    <img src="img/Rectangle-29.jpg" alt="river photo">
+                    <div class="textblock">
                         <h3 class="stories__title">10 Photos of Attractive Thailand</h3>
-                        <p class="stories__article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... 
+                        <article>
+                        <p class>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... 
                         </p>
-                        <a href="" class="stories__link">Read More</a>
+                        </article>  
+                        <a href="index.html" class="more__link">Read More</a>
                     </div>
                 </div>
             </div>
-            <div class="stories__list">
-                <div class="stories__item">
-                    <img src="img/Rectangle-30.jpg" alt="Canyonlands photo">
-                    <div class="stories__textblock">
+            <div class="stories_list">
+                <div class="stories_item">
+                    <img src="img/Rectangle-30.jpg" alt="Mountains photo">
+                    <div class="textblock">
                         <h3 class="stories__title">Canyonlands National Park, Utah</h3>
-                        <p class="stories__article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... 
+                        <article>
+                        <p class>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... 
                         </p>
-                        <a href="index.html" class="stories__link">Read More</a>
+                        </article>
+                        <a href="index.html" class="more__link">Read More</a>
                     </div>
                 </div>
             </div>
-            <div class="stories__list">
-                <div class="stories__item">
-                    <img src="img/Rectangle-31.jpg" alt="Mountains photo">
-                    <div class="stories__textblock">
+            <div class="stories_list">
+                <div class="stories_item">
+                    <img src="img/Rectangle-31.jpg" alt="Snowy Mountains photo">
+                    <div class="textblock">
                         <h3 class="stories__title">I left my heart in the Mountains!</h3>
-                        <p class="stories__article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... 
+                        <article>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... 
                         </p>
-                        <a href="index.html" class="stories__link">Read More</a>
+                        </article>  
+                        <a href="index.html" class="more__link">Read More</a>
                     </div>
                 </div>
             </div>
-            <div class="stories__list">
-                <div class="stories__item">
-                    <img src="img/Rectangle-32.jpg" alt="Journey photo">
-                    <div class="stories__textblock">
+            <div class="stories_list">
+                <div class="stories_item">
+                    <img src="img/Rectangle-32.jpg" alt="Bus photo">
+                    <div class="textblock">
                         <h3 class="stories__title">The Longest journey in my life!</h3>
-                        <p class="stories__article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                        <article>
+                        <p class>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
                         </p>
-                        <a href="" class="stories__link">Read More</a>
+                        </article>  
+                        <a href="index.html" class="more__link">Read More</a>
                     </div>
                 </div>
             </div>
-            <button type="button" class="button button__arrow">
+            <button class="button button__arrow">
                 <img src="img/svg/arrow-right.svg" alt="arrow-right">
                 See More
             </button>
@@ -137,19 +144,17 @@
     </main>
     <footer class="footer__main">
         <div class="footer__item">
-            <div class="rsschool">
-                <a href="https://rs.school/js/"><img src="img/svg/logo-rsschool.svg" alt="rsschool-logo"></a>
-            </div>
+                <a href="https://rs.school/"><img src="img/svg/logo-rsschool.svg" alt="rsschool-logo"></a>
         </div>
         <div class="footer__item">
             <div class="footer__rights">All Rights Reserved © Travel Portal 2022</div>
         </div>
         <div class="footer__item">
             <ul class="footer__socials-list">
-                <li class="footer__socials-item"><a href="https://github.com/Saidmurodkhodja"><img src="img/svg/icon-github.svg" alt="github" class="github"></a></li>
-                <li class="footer__socials-item"><a href="https://github.com/Saidmurodkhodja"><img src="img/svg/icon-instagram.svg" alt="instagram"></a></li>
-                <li class="footer__socials-item"><a href="https://github.com/Saidmurodkhodja"><img src="img/svg/icon-youtube.svg" alt="youtube"></a></li>
-                <li class="footer__socials-item"><a href="https://github.com/Saidmurodkhodja"><img src="img/svg/icon-twitter.svg" alt="twitter"></a></li>
+                <li class="footer__socials-item"><a href="https://github.com/Saidmurodkhodja"><img src="img/svg/icon-github.svg" alt="github logo"></a></li>
+                <li class="footer__socials-item"><a href="https://github.com/Saidmurodkhodja"><img src="img/svg/icon-instagram.svg" alt="instagram logo"></a></li>
+                <li class="footer__socials-item"><a href="https://github.com/Saidmurodkhodja"><img src="img/svg/icon-youtube.svg" alt="youtube logo"></a></li>
+                <li class="footer__socials-item"><a href="https://github.com/Saidmurodkhodja"><img src="img/svg/icon-twitter.svg" alt="twitter logo"></a></li>
             </ul>
         </div>
     </footer>
