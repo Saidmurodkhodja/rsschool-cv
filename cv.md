@@ -1,4 +1,4 @@
-# ("https://saidmurodkhodja.github.io/rsschool-cv/")[rsschool-cv] 
+# [rsschool-cv]("https://saidmurodkhodja.github.io/rsschool-cv/") 
 # Saidmurodkhon Mukhitdinov
 ## Contacts
 * Location: Tashkent, Uzbekistan
